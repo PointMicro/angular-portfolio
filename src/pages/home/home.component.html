@@ -1,0 +1,44 @@
+<section class="home-container">
+
+  <div class="left-column">
+    <h1>{{ title }}</h1>
+
+    <div class="intro-box">
+      <p>{{ description }}</p>
+    </div>
+
+    <div class="icon-row">
+      <a
+        class="icon-button"
+        [href]="githubUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img [src]="githubIcon" alt="GitHub" />
+      </a>
+
+      <a
+        class="icon-button"
+        [href]="linkedinUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img [src]="linkedinIcon" alt="LinkedIn" />
+      </a>
+    </div>
+
+    <p class="contact">
+      Contact me:
+      <a [href]="'mailto:' + email">{{ email }}</a>
+    </p>
+  </div>
+
+  <div class="right-column">
+    <img
+      class="hero-image"
+      [src]="heroImage"
+      alt="Decorative PC graphic"
+    />
+  </div>
+
+</section>
