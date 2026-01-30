@@ -19,7 +19,7 @@ export class HomeComponent {
   linkedinUrl = 'https://www.linkedin.com/in/gabriel-a-234913248/';
   email = 'gabe720a@gmail.com';
 
-  githubIcon = 'assets/imgs/github.png';
-  linkedinIcon = 'assets/imgs/linkedin.png';
-  heroImage = 'assets/imgs/pc1.gif';
+  githubIcon = './imgs/github.png';
+  linkedinIcon = './imgs/linkedin.png';
+  heroImage = './imgs/pc1.gif';
 }
